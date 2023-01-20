@@ -1,5 +1,5 @@
 #minimize.py
- message: Optimization terminated successfully.
+\n message: Optimization terminated successfully.
  success: True
   status: 0
      fun: -16.818181818181817
