@@ -21,6 +21,7 @@ rhs_eq = [15]
 bnd = [(0, float("inf")),
        (0, float("inf"))]
 
+# method= "interior-point", "revised simplex", "simplex"
 opt = linprog(c = obj, A_ub=lhs_ineq, b_ub=rhs_ineq, 
                     A_eq=lhs_eq, b_eq=rhs_eq, 
                     bounds=bnd, method="revised simplex")
